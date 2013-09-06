@@ -50,3 +50,5 @@ persist.radio.snapshot_disabled=1
 # Default ECCList (Except USCC)
 ro.ril.ecclist=112,911,#911,*911
 
+# temp fix for dalvik-cache
+dalvik.vm.dexopt-data-only=1
